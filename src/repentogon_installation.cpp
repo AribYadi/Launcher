@@ -280,7 +280,7 @@ HMODULE RepentogonInstallation::LoadLib(const char* name, LoadableDlls dll) {
 }
 
 bool RepentogonInstallation::IsIsaacVersionCompatible(const char* version) {
-	return !strcmp(version, "v1.9.7.12.J273");
+	return !strcmp(version, "v1.9.7.19.J510");
 }
 
 void RepentogonInstallation::Invalidate() {
